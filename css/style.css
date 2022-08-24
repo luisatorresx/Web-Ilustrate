@@ -1,0 +1,213 @@
+{
+font: times new roman;
+}
+#header{
+	color: #fff;
+	display: table;
+	width: 100%;
+	height: 100vh;
+	margin:0;
+	padding: 20px;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/mar.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#header-container{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nosotros{
+	width: 100%;
+	display: table;
+	width: 100%;
+	height: 100vh;
+	margin:0;
+	padding: 20px;
+	background color: #fff;
+}
+.lyric{
+	color:#fff;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/olas.jpg");
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    opacity: 30%
+
+}
+#servicios{
+	color: #fff;
+	display: table;
+	width: 100%;
+	height: 100vh;
+	margin:0;
+	padding: 20px;
+	background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/oceano.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+}
+.borde{
+	border: 1px solid #000;
+	background-color: pink;
+}
+
+.icon{
+	background-color: #fff;
+	border: 3px solid #fff;
+	width: 100px;
+	height: 100px;
+	display: table;
+	border-radius: 50%;
+	transition: all 0.8s ease;
+	margin: 0 auto;
+}
+
+.icon:hover{
+	background-color: #000000;
+}
+
+.icon i{
+	color: #000000;
+	font-size: 35px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.icon:hover i{
+	color: #fff;
+
+}
+.link{
+	text-decoration: none;
+	color: white;
+}
+
+#portafolio{
+	width: 100%;
+}
+
+.container-all{
+    width: 80%;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    perspective: 500px;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateX(-100%) rotateY(360deg);
+    transition: all 1s;
+}
+
+#img1{
+    transform: translateX(0);
+  
+}
+
+.img-container:target{
+    transform: translateX(0) rotateY(0deg);
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.fa-chevron-circle-left{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-chevron-circle-right{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#contacto{
+	color: #fff;
+	display: table;
+	width: 100%;
+	margin top: 10px;
+	padding: 50px;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/mar1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.icono{
+	background-color: #fff;
+	border: 3px solid #fff;
+	width: 50px;
+	height: 50px;
+	display: table;
+	border-radius: 50%;
+	transition: all 0.8s ease;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+}
+
+.icono:hover{
+	background-color: #000000;
+}
+
+.icono i{
+	color: #000000;
+	font-size: 35px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.icono:hover i{
+	color: #fff;
+
+}
+#footer{
+	color: #000000;
+	display: table;
+	width: 100%;
+	padding: 0;
+	background color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.texto{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
